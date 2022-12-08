@@ -1,0 +1,23 @@
+.background{
+    background-color: rgb(31, 6, 6);
+    width: 460px;
+    height: 600px;
+    padding: 20px;
+
+}
+
+.white{
+    background-color: rgb(255, 235, 235);
+    width: 200px;
+    height: 165px;
+    top: 20px;
+    left: 20px;
+    display: inline-block;
+    z-index: 2;
+}
+.red{
+    background-color: brown;
+    width: 240px;
+    height: 360px;
+    float: right;
+}
