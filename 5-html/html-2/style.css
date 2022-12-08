@@ -1,23 +1,65 @@
-.background{
-    background-color: rgb(31, 6, 6);
-    width: 460px;
-    height: 600px;
-    padding: 20px;
+.background {
+  background-color: rgb(31, 6, 6);
+  width: 500px;
+  height: 640px;
+  padding: 10px;
+}
+
+.red {
+  background-color: brown;
+  width: 300px;
+  height: 440px;
+  float: right;
+  margin-left: 10px;
+}
+.white {
+  background-color: rgb(255, 255, 238);
+  display: inline-block;
+}
+
+.top-white {
+  width: 185px;
+  height: 185px;
+  margin-bottom: 20px;
+}
+
+.middle-white {
+  width: 185px;
+  height: 230px;
+}
+
+.blue {
+  background-color: rgb(42, 130, 165);
+  width: 185px;
+  height: 185px;
+  margin-top: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.bottom-white {
+  height: 185px;
+  width: 230px;
+  margin-right: 10px;
+}
+
+.invisible {
+  height: 180px;
+  width: 60px;
+  float: right;
+}
+
+.small-white {
+  height: 80px;
+  width: 55px;
+  margin-top: 10px;
 
 }
 
-.white{
-    background-color: rgb(255, 235, 235);
-    width: 200px;
-    height: 165px;
-    top: 20px;
-    left: 20px;
-    display: inline-block;
-    z-index: 2;
-}
-.red{
-    background-color: brown;
-    width: 240px;
-    height: 360px;
-    float: right;
+.yellow {
+  height: 80px;
+  width: 55px;
+  background-color: yellow;
+  margin-top: 20px;
+
 }
